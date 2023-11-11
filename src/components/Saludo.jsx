@@ -5,7 +5,7 @@ const Saludo = ({ nombre }) => {
   return (
     <div>
       <h1>Hola, {nombre}!</h1>
-      <p>Bienvenido al sitio.</p>
+      <p>Bienvenido/a al sitio.</p>
     </div>
   );
 };

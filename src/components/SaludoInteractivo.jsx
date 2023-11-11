@@ -1,4 +1,4 @@
-import  { useState } from "react";
+import { useState } from "react";
 
 const SaludoInteractivo = () => {
   const [nombre, setNombre] = useState("");
@@ -14,12 +14,17 @@ const SaludoInteractivo = () => {
   };
 
   return (
-    <div>
-      <h4>(Componente Interactivo de Saludo)</h4>
+    <div className="descripcion">
+      
       <form onSubmit={handleSubmit}>
         <label>
           Ingresa tu nombre:
-          <input type="text" value={nombre} onChange={handleChange} />
+          <input
+            type="text"
+            id="nombreInput" 
+            value={nombre}
+            onChange={handleChange}
+          />
         </label>
         <button type="submit">Saludar</button>
       </form>

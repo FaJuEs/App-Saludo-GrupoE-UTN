@@ -1,6 +1,5 @@
 import PropTypes from "prop-types";
 
-
 const Saludo = ({ nombre }) => {
   return (
     <div>
@@ -15,4 +14,3 @@ Saludo.propTypes = {
 };
 
 export default Saludo;
-

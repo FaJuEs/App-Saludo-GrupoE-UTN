@@ -1,9 +1,9 @@
-import SaludoInteractivo from "./components/SaludoInteractivo"; 
+import SaludoInteractivo from "./components/SaludoInteractivo";
 
 export const App = () => {
   return (
     <div>
-      <h3>Saludo</h3>
+      <h3>Nuestra App Saludo-Gr:E-UTN</h3>
       <SaludoInteractivo />
     </div>
   );

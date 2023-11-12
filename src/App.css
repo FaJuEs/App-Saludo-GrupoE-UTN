@@ -1,5 +1,5 @@
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   background-image: url(https://img.freepik.com/foto-gratis/pintura-lago-montana-montana-al-fondo_188544-9126.jpg?size=626&ext=jpg&uid=R6686776&ga=GA1.1.1585045555.1697893962&semt=ais);
   background-repeat: no-repeat;
   background-size: cover;
@@ -18,13 +18,15 @@ body {
   border-radius: 8px;
 }
 
-h1 {
-  color:black;
+h3 {
+  color: black;
   text-align: center;
 }
 
-h4 {
-  color:black;
+p {
+  color: white !important;
+  text-align: center;
+  font-size: large;
 }
 
 form {
@@ -57,4 +59,3 @@ button {
 button:hover {
   background-color: rgb(170, 22, 190);
 }
-

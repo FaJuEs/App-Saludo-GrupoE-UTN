@@ -15,13 +15,12 @@ const SaludoInteractivo = () => {
 
   return (
     <div className="descripcion">
-      
       <form onSubmit={handleSubmit}>
         <label>
           Ingresa tu nombre:
           <input
             type="text"
-            id="nombreInput" 
+            id="nombreInput"
             value={nombre}
             onChange={handleChange}
           />
